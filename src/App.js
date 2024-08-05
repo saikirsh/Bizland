@@ -4,9 +4,11 @@ import Banner from './banner';
 import Icons from './icons';
 import About from './about';
 import Programbar from './programbar';
+import { useState } from 'react';
 
 
 function App() {
+  const[data,setData]=useState();
   return (
     
 <div className="p-0 m-0">
